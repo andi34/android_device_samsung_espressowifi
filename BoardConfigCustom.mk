@@ -42,3 +42,6 @@ BOARD_SEPOLICY_UNION += \
     property_contexts \
     property.te \
     variant_setup.te
+
+# External apps on SD
+TARGET_EXTERNAL_APPS = sdcard1
