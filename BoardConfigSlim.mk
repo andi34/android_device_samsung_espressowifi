@@ -1,6 +1,9 @@
 # Bootanimation
 TARGET_BOOTANIMATION_PRELOAD := true
 
+# Charger
+BOARD_NO_CHARGER_LED := true
+
 # F2FS filesystem
 TARGET_USERIMAGES_USE_F2FS := true
 
