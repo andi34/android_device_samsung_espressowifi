@@ -24,7 +24,7 @@ TARGET_SCREEN_WIDTH := 1280
 $(call inherit-product, vendor/slim/config/common.mk)
 
 # SlimRoms specific overlay
-DEVICE_PACKAGE_OVERLAYS += device/samsung/espressowifi/overlay/slim-common
+DEVICE_PACKAGE_OVERLAYS += device/samsung/espressowifi/overlay/custom-common
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/espressowifi/aosp_espressowifi.mk)
