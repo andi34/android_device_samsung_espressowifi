@@ -1,3 +1,5 @@
+ifeq ($(TARGET_DEVICE),espressowifi)
+
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
@@ -9,3 +11,5 @@ LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 
 include $(BUILD_PREBUILT)
+
+endif
